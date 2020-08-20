@@ -1,0 +1,12 @@
+if TARGET_TQIMX6ULL_COREB
+
+config SYS_BOARD
+	default "tq-imx6ull"
+
+config SYS_VENDOR
+	default "EmbedSky"
+
+config SYS_CONFIG_NAME
+	default "tq-imx6ull"
+
+endif

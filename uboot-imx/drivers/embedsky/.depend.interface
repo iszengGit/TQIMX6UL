@@ -1,0 +1,80 @@
+interface.o: interface.c \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/tq_core.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/common.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/config.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/config_cmd_defaults.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/config_defaults.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/configs/tq3358.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/configs/ti_am335x_common.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/arch/omap.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/configs/ti_armv7_common.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/config_cmd_default.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/config.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/config_fallbacks.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/config_uncmd_spl.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm-offsets.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/generated/generic-asm-offsets.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/bitops.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/types.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/bitops.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/proc/system.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/config.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/types.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/posix_types.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/stddef.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/posix_types.h \
+ /opt/EmbedSky/4.4.6/lib/gcc/arm-embedsky-linux-gnueabi/4.4.6/include/stdbool.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/string.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/string.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/linux_string.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/stringify.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/ptrace.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/proc/ptrace.h \
+ /opt/EmbedSky/4.4.6/lib/gcc/arm-embedsky-linux-gnueabi/4.4.6/include/stdarg.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/part.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/ide.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/part_efi.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/compiler.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/compiler-gcc.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/compiler-gcc4.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/flash.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/image.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/compiler.h \
+ /opt/EmbedSky/4.4.6/lib/gcc/arm-embedsky-linux-gnueabi/4.4.6/include/stddef.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/byteorder.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/byteorder/little_endian.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/byteorder/swab.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/byteorder/generic.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/lmb.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/u-boot.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/command.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linker_lists.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/global_data.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/omap_boot.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm-generic/global_data.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/mach-types.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/setup.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/u-boot-arm.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/vsprintf.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/u-boot/crc.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/net.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/cache.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/system.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/bootstage.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/nand.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/compat.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/mtd/mtd.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/div64.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/mtd/mtd-abi.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/errno.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm-generic/errno.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/mtd/nand.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/linux/mtd/bbm.h \
+ interface.h modify.h lib/common.h \
+ /tmp/opt/EmbedSky/TQ335x/uboot_TQ335x_Nand/include/asm/sizes.h \
+ lib/emmc_partitions.h lib/ini_parser.h lib/emmc_common.h lib/common.h \
+ lib/part.h lib/part_efi.h board/tq3358/modify.h \
+ board/tq3358/../../modify.h board/tq3358/../../compatible.h \
+ board/tq3358/../../board_init.h board/tq3358/../../lib/part.h \
+ board/tq3358/../../lib/common.h board/tq3358/../../update.h \
+ board/tq3358/../../interface.h

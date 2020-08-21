@@ -145,6 +145,7 @@
 	};
 
 };
+/*
 &ecspi1 {
 	fsl,spi-num-chipselects = <1>;
 	cs-gpios = <&gpio4 26 0>;
@@ -173,7 +174,7 @@
 		spi-max-frequency = <54000000>;
 	};
 };
-
+*/
 &cpu0 {
 	arm-supply = <&reg_arm>;
 	soc-supply = <&reg_soc>;

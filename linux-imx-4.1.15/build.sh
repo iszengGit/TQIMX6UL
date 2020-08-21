@@ -14,7 +14,7 @@ cp config_6ul .config
 make zImage -j8
 cp arch/arm/boot/zImage ./zImage
 
-make dtbs &&
+make dtbs  &&
 
 #imx6ul dtb
 #cp arch/arm/boot/dts/tq-imx6ul_net0_net1.dtb ./tq-imx6ul_net0_net1.dtb &&

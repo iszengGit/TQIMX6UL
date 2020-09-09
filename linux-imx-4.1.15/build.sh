@@ -3,16 +3,16 @@
 export ARCH=arm
 export CROSS_COMPILE=arm-linux-gnueabihf-
 
-rm zImage
+#rm zImage
 rm tq-imx6ul*.dtb
 
 #cp config_6ull .config &&
 #make zImage -j8 &&
 #cp arch/arm/boot/zImage ./zImage &&
 
-cp config_6ul .config
-make zImage -j8
-cp arch/arm/boot/zImage ./zImage
+#cp config_6ul .config
+#make zImage -j8
+#cp arch/arm/boot/zImage ./zImage
 
 make dtbs  &&
 

@@ -1205,7 +1205,7 @@ static int mxsfb_init_fbinfo_dt(struct mxsfb_info *host)
 	}
 
 #if defined(CONFIG_EMBEDSKY)
-	fb_replace_modedbs("lcd",timings->timings[timings->num_timings-1]);
+	//fb_replace_modedbs("lcd",timings->timings[timings->num_timings-1]);
 #endif	
 
 

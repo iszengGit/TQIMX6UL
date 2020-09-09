@@ -562,77 +562,7 @@
 
 		display-timings {
 			native-mode = <&timing0>;
-			timing0: timing0 {
-				//mode_name = "lcd_5hd";
-				clock-frequency = <48000000>;
-				hactive = <800>;
-				vactive = <480>;
-				hfront-porch = <8>;
-				hback-porch = <4>;
-				hsync-len = <41>;
-				vback-porch = <2>;
-				vfront-porch = <4>;
-				vsync-len = <10>;
-
-				hsync-active = <0>;
-				vsync-active = <0>;
-				de-active = <1>; 
-				pixelclk-active = <0>;
-			};
-			timing1: timing1 {		//TN92普清屏
-				//mode_name = "TN92";
-				clock-frequency = <26400000 33300000 46800000>;
-				hactive = <800>;
-				vactive = <480>;
-
-				hfront-porch = <16 210 354>;
-				hback-porch = <37>;
-				hsync-len = <1 10 40>;	//1-40 (hsync-len+back = 46)
-
-				vfront-porch = <7 22 147>;
-				vback-porch = <13>;
-				vsync-len = <1 10 20>;	//1-20  (vsynclen+vback = 23)
-
-				hsync-active = <0>;
-				vsync-active = <0>;
-			};
-			timing2: timing2 {  		//七寸高清屏 
-				//mode_name = "H70";
-				clock-frequency = <48000000>;
-				hactive = <1024>;
-				vactive = <600>;
-				hfront-porch = <150>;
-				hback-porch = <150>;
-				hsync-len = <20>;
-				vback-porch = <15>;
-				vfront-porch = <15>;
-				vsync-len = <5>;
-
-				hsync-active = <0>;
-				vsync-active = <0>;
-				de-active = <1>; 
-				pixelclk-active = <0>;
-			};
-				
-			timing3:timing3{  		//4.3寸
-				//mode_name = "T43";
-				clock-frequency = <30000000>;//108695
-				hactive = <480>;
-				vactive = <272>;
-				hfront-porch = <4>;
-				hback-porch = <2>;
-				hsync-len = <39>;
-				vback-porch = <2>;
-				vfront-porch = <3>;
-				vsync-len = <10>;
-
-				hsync-active = <0>;
-				vsync-active = <0>;
-				de-active = <1>; 
-				pixelclk-active = <0>;
-			};
-			timing4:timing4{  		//10.4电阻屏 
-				//mode_name = "lcd_10_4pd";
+			timing0:timing0{  		//2.0迪文屏 
 				clock-frequency = <5000000>;
 				hactive = <240>;
 				vactive = <320>;
